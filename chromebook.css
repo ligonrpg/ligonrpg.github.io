@@ -119,15 +119,16 @@ code {
 .resourcesbutton {
     margin: auto; 
     position: absolute;
-    left: 600px;
-    bottom: 310;
+    right: 400px;
+    bottom: 350px;
     height: 0;
     width: 0;
 }
 
 .schedulebutton {
     position: absolute;
-    right:400px;
+    right:450px;
+    margin: auto;
 }
 
 .aboutbutton {
