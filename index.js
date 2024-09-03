@@ -1,12 +1,17 @@
 function load(){
     let hasTouchScreen = false;
+    let isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
     if ("maxTouchPoints" in navigator) {
         hasTouchScreen = navigator.maxTouchPoints > 0;
     } 
 
-    if (hasTouchScreen) {
+    if (hasTouchScreen && !isMobile) {
         window.location.href = window.location.href + "chromebook"
+    }
+
+    if (hasTouchScreen && isMobile){
+        window.location.href = window.location.href + "mobile"
     }
 }
 
