@@ -119,8 +119,8 @@ code {
 .resourcesbutton {
     margin: auto; 
     position: absolute;
-    right:300px;
-    bottom: 300px;
+    left: 600px;
+    bottom: 310;
     height: 0;
     width: 0;
 }
@@ -128,7 +128,6 @@ code {
 .schedulebutton {
     position: absolute;
     right:400px;
-    bottom: 310px
 }
 
 .aboutbutton {
