@@ -119,14 +119,14 @@ code {
 .resourcesbutton {
     margin: auto; 
     position: absolute;
-    right:400px;
-    bottom: 400px
+    right:300px;
+    bottom: 300px
 }
 
-.merchbutton {
+.schedulebutton {
     position: absolute;
-    left:400px;
-    bottom: 410px
+    left:300px;
+    bottom: 310px
 }
 
 .aboutbutton {
