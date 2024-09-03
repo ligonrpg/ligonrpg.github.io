@@ -9,7 +9,7 @@ html {
 
 
 #topheader {
-    color: rgb(255, 255, 255);
+    color: wheat;
     font-size: 100px;
     text-shadow: black 8px 2px;
     text-align: center;
@@ -119,7 +119,7 @@ code {
 .resourcesbutton {
     margin: auto; 
     position: absolute;
-    right: 400px;
+    right: 500px;
     bottom: 350px;
     height: 0;
     width: 0;
@@ -127,7 +127,7 @@ code {
 
 .schedulebutton {
     position: absolute;
-    right:450px;
+    left: 300px;
     margin: auto;
 }
 
