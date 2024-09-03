@@ -63,7 +63,7 @@ button {
 }
 
 button:hover {
-    color: #ffa260
+    color: #c26a2b
 }
 
 h1 { font-weight: 400; }
@@ -79,7 +79,7 @@ code {
 
 .menu {
     display: block;
-    position: relative;
+    position: absolute;
 }
 
 .menu > li > a {
@@ -91,14 +91,14 @@ code {
 }
 
 .menu ul {
-    background: #3ac0c3;
+    background: #1b5b5c;
     height: 250px;
     left: 0;
     opacity: 0;
     position: absolute;
     transition: all .5s ease;
     top: 35px;
-    width: 200px;
+    width: 150px;
 }
 
 .menu li:hover ul {
