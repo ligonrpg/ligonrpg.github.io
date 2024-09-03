@@ -8,6 +8,7 @@ function load(){
 
     if (hasTouchScreen && !isMobile) {
         document.getElementById("stylesheet").href = "chromebook.css"
+        document.getElementById("topheader").innerHTML = document.getElementById("stylesheet").href
     }
 
     if (hasTouchScreen && isMobile){
