@@ -7,16 +7,13 @@ function load(){
     } 
 
     if (hasTouchScreen && !isMobile) {
-        window.location.href = window.location.href + "chromebook"
+        document.getElementById("stylesheet").href = "chromebook.css"
     }
 
     if (hasTouchScreen && isMobile){
         window.location.href = window.location.href + "mobile"
     }
 }
-
-
-
 
 function clicked(id){
     window.location.href = window.location.href + id;

@@ -112,3 +112,37 @@ code {
     display: block;
     padding: 5px 20px;
 }
+
+
+/* Button positions! */
+
+.resourcesbutton {
+    margin: auto; 
+    position: absolute;
+    right:800px;
+    bottom: 803px
+}
+
+.merchbutton {
+    position: absolute;
+    left:800px;
+    bottom: 820px
+}
+
+.aboutbutton {
+    margin: auto; 
+    position:absolute;
+    right:6px;
+    left:150px;
+    width:0;
+    height: 0
+}
+
+.joinbutton {
+    margin: auto; 
+    position:absolute;
+    right:350px;
+    left:0;
+    width:0;
+    height: 0
+}

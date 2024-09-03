@@ -1,7 +1,7 @@
 <head>
     <title>Ligon Rpg Club</title>
     <link rel="icon" type="image/x-icon" href="images/icon.png">
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <link id="stylesheet" rel="stylesheet" type="text/css" href="index.css">
     <script type="text/javascript" src="index.js"></script>
     <script>
         load();
@@ -10,7 +10,7 @@
 <body>
     <div style="margin: auto; height:300px"></div>
     <div id="topheader" style="height: 120px">Ligon Dnd Club</div>
-    <div style="margin: auto; position: absolute;right:800px;bottom: 803px">
+    <div class="resourcesbutton">
         <ul class="menu">
             <li>
                 <button class="rise" id="resources">Resources</button>
@@ -25,21 +25,21 @@
     </div>
 
 
-    <div style="position: absolute;left:800px;bottom: 820px">
+    <div class="merchbutton">
         <button class="rise" onclick="clicked(this.id)" id="merch">
             Schedule
         </button>
     </div>
 
 
-    <div style="margin: auto; position:absolute;right:6px;left:150px;width:0;height: 0">
+    <div class="aboutbutton">
         <button class="rise" onclick="clicked(this.id)" id="about">
             About
         </button>
     </div>
 
 
-    <div style="margin: auto; position:absolute;right:350px;left:0;width:0;height: 0">
+    <div class="joinbutton">
         <button class="rise" onclick="clicked(this.id)" id="join">
             Join
         </button>
