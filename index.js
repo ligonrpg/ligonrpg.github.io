@@ -17,5 +17,5 @@ function load(){
 }
 
 function clicked(id){
-    window.location.href = window.location.href + id;
+    window.location.href = "ligonrpg.com/" + id;
 }
