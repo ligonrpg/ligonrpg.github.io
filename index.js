@@ -11,7 +11,7 @@ function load(){
     }
 
     if (hasTouchScreen && isMobile){
-        window.location.href = window.location.href + "mobile"
+
     }
 }
 
