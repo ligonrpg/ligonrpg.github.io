@@ -127,7 +127,7 @@ code {
 
 .schedulebutton {
     position: absolute;
-    left:400px;
+    right:400px;
     bottom: 310px
 }
 
