@@ -97,13 +97,13 @@ code {
     position: absolute;
     transition: all .5s ease;
     top: 35px;
-    width: 200px;
+    width: 190px;
 }
 
 .menu li:hover ul {
     height: 150px;
     opacity: 1;
-    transform: translateY(30px);
+    transform: translateY(40px);
 }
 
 .menu ul a {
